@@ -35,5 +35,5 @@ def reverse_string(string)
     string.length.times do |i|
     newString = string[i] + newString
     end
-  return newString
+  newString
 end
